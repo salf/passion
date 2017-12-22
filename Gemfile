@@ -13,7 +13,9 @@ gem 'active_model_serializers', '~> 0.10.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'omniauth-google-oauth2', '~> 0.5.2'
 gem 'rack-cors', '~> 1.0.2'
+gem 'bcrypt'
 
 group :development, :test do
   gem 'annotate',          '~> 2.7.2'

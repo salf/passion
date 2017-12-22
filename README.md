@@ -1,6 +1,7 @@
 # README
 
 This is a rails application suitable to back-end, only API and JSON, without any views and all related gems for rendering html/js/css.
+OAuth should be configured on the front-end part to generate proper URL for user authentication. In this application OAuth is only for demonstration.
 
 #### Ruby version
 `2.2.5`
@@ -23,7 +24,7 @@ This is a rails application suitable to back-end, only API and JSON, without any
 nothing special with Heroku: `git push heroku master`
 
 #### What would you improve next?
-- add authentication;
+- improve authentication with token refreshing;
 - extract verticals, categories and courses logic into separate service;
 - for extracting we want to know other parts of future application;
 - add messaging between services like ActiveMQ;
